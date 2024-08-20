@@ -9,9 +9,27 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.left-side-items,
+.right-side-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 .profile-image {
